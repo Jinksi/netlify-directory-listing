@@ -1,0 +1,8 @@
+# Global settings applied to the whole site.
+#
+# “publish” is the directory to publish (relative to root of your repo),
+# “command” is your build command
+
+[build]
+  publish = "public"
+  command = "tree -H '' files > public/index.html && cp -R files/* public"
