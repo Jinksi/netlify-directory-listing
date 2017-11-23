@@ -5,4 +5,4 @@
 
 [build]
   publish = "public"
-  command = "tree -H '' files > public/index.html && cp -R files/* public"
+  command = "yarn build"
